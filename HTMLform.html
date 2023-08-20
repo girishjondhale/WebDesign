@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>HTML FORM DEMO</title>
+</head>
+<body>
+    <form>
+        <label>Enter Name</label>
+        <input type="text" maxlength="10" required placeholder="Full Name" />
+        <br />
+        <label>Enter website</label>
+        <input type="url" />
+        <br />
+        <label>Enter email</label>
+        <input type="email" />
+        <br />
+        <label>Enter age</label>
+        <input type="number" min="18" max="100" />
+        <br />
+        <label>country</label>
+        <input type="text" value="india" readonly />
+        <br />
+        <label>Select gender</label>
+        <input type="radio" value="male" name="gender" />male
+        <input type="radio" value="female" name="gender" />female
+
+        <br />
+        <label>Experience</label>
+        <input type="radio" value="fresher" name="exp" />fresher
+        <input type="radio" value="2yrs" name="exp" />2yrs
+        <input type="radio" value="4yrs" name="exp" />4yrs
+        <br />
+
+        <label>Select Hobies</label>
+        <input type="checkbox" value="music" name="hobbies" />music
+        <input type="checkbox" value="sports" name="hobbies" />sports
+        <input type="checkbox" value="riding bikes" name="hobbies" />riding bikes
+        <br />
+
+        <label>Select city</label>
+        <select multiple>
+            <option>pune</option>
+            <option>satara</option>
+            <option>nagar</option>
+            <option>nagpur</option>
+        </select>
+
+    </form>
+
+</body>
+</html>
